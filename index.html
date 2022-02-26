@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+
+	</style>
+	<title>Glass - Circles</title>
+
+	<link rel="preload" href="./scene.json" as="fetch">
+	<link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+
+
+	<div class="container">
+		<div class="content"><canvas id="canvas3d"></canvas></div>
+
+		<div class="overlay">
+
+			<h1>3D test website</h1>
+			<ul>
+				<li><a id = 'home' href="#home">Home</a></li>
+				<li><a  id = 'events'  href="#events">events</a></li>
+				<li><a  id = 'contacts' href="#contact">Contact</a></li>
+				<li><a  id = 'about' href="#about">About</a></li>
+			</ul>
+
+
+			<div class="background">
+
+
+				<div id="div1">
+					<div class="card">
+						<h1>Home page</h1>
+						<h3>lafalkfaflka</h3>
+					</div>
+				</div>
+				<div id="div2">
+					<div class="card">
+						<h1>something</h1>
+						<h3>lafalkfaflka</h3>
+					</div>
+				</div>
+				<div id="div3">
+					<div class="card">
+						<h1>About </h1>
+						<h3>lafalkfaflka</h3>
+					</div>
+				</div>
+
+
+			</div>
+		</div>
+	</div>
+	</div>
+
+	<div id='container'>
+
+
+
+
+
+
+
+	</div>
+	<script type="module">
+		import { Application } from './runtime.js';
+		const app = new Application();
+		app.load('./scene.json');
+	</script>
+	<script src="./script.js"></script>
+</body>
+
+</html>
